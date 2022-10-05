@@ -1,0 +1,10 @@
+<h1>{{className}}</h1>
+<h2>Phòng: B12</h2>
+<h3>Sĩ số :{{siso}}</h3>
+<button (click)="themSinhvien()" type="button"> Thêm sinh viên </button>
+<button (click)="giamSinhvien()" type="button">Giảm sinh viên</button>
+<h3>Số bạn gái dự bị:{{sobangai}}</h3>
+<button (click)="soBangaitang()" type="button">Tăng số bạn gái dự bị</button>
+<button (click)="soBangaigiam()" type="button">Giảm số bạn gái dự bị</button>
+
+<sinhvien [classN]="className"></sinhvien>
